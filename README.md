@@ -10,5 +10,4 @@
 2. 경로는 `<img src='/assets/chungsulmo_logo.svg' alt='청설모 로고' height='51px' />` 이런식으로 지정해주면 됩니다!
    <span style='color:#f33'>**상대경로로 표시해줄 필요 읎음**</span>
 
-
-### 🥶 파일은 무족권 JSX로 저장하세요
+### 🥶 리액트 파일은 무족권 **JSX**로 저장하세요
