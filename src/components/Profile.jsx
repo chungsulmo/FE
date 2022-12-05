@@ -12,8 +12,8 @@ const Profile = () => {
 export default Profile;
 
 const ProfileImg = styled.div`
-  width: 72px;
-  height: 72px;
+  width: 4.5rem;
+  height: 4.5rem;
   border-radius: 50%;
   background-color: #ddd;
 `;

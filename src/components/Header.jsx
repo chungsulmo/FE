@@ -11,15 +11,29 @@ const Header = () => {
   return (
     <Headers>
       <img src='/assets/chungsulmo_logo.svg' alt='청설모 로고' height='40px' />
-      <BsCalendar4Range size='30' color='#3bb8d3'/>
-      <Search />
-      <Profile />
+      <PersonalArea>
+        <Search />
+        <BsCalendar4Range size='30' color='#3bb8d3' />
+        <Profile />
+      </PersonalArea>
     </Headers>
   );
 };
 
 const Headers = styled.div`
-  /* display: flex; */
+  display: flex;
+  flex-flow: row no-wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+`;
+
+const PersonalArea = styled.div`
+  display: flex;
+  flex-flow: row no-wrap;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 500px;
 `;
 
 export default Header;
