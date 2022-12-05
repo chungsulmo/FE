@@ -8,19 +8,19 @@ const RentalHouse = () => {
     <RentalWrap>
       <SortingHouse>
         <span>마감임박</span>
-        <span style={{ fontWeight: 700 }}>100</span>
+        <span style={{ fontWeight: 700 }}>{houseNumber}</span>
       </SortingHouse>
       <SortingHouse>
         <span>찜목록</span>
-        <span style={{ fontWeight: 700 }}>30</span>
+        <span style={{ fontWeight: 700 }}>{houseNumber}</span>
       </SortingHouse>
       <SortingHouse>
         <span>역세권 청년주택</span>
-        <span style={{ fontWeight: 700 }}>200</span>
+        <span style={{ fontWeight: 700 }}>{houseNumber}</span>
       </SortingHouse>
       <SortingHouse>
         <span>행복주택</span>
-        <span style={{ fontWeight: 700 }}>10</span>
+        <span style={{ fontWeight: 700 }}>{houseNumber}</span>
       </SortingHouse>
     </RentalWrap>
   );

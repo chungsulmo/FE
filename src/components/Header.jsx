@@ -10,7 +10,9 @@ import Profile from './Profile';
 const Header = () => {
   return (
     <Headers>
-      <img src='/assets/chungsulmo_logo.svg' alt='청설모 로고' height='40px' />
+      <h1>
+        <img src='/assets/chungsulmo_logo.svg' alt='청설모 로고' height='40px' />
+      </h1>
       <PersonalArea>
         <Search />
         <BsCalendar4Range size='30' color='#3bb8d3' />
